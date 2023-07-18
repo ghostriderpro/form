@@ -94,3 +94,8 @@ button:hover {
 .textarea_control textarea {
     width: 100%;
 }
+
+@media (max-width:460px) {
+    .textarea_control {
+        grid-column: 1 /span 1;
+    }
